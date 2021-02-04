@@ -1,0 +1,47 @@
+.entire-box {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    width: 300px;
+    height: auto;
+    border: 1px solid red;
+    padding: 10px 10px 10px 10px;
+
+}
+.move, .selector{
+    width:300px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: #d16044; 
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-left: none
+}
+#first .move-left, #third .move-right{
+    background-color:#f8f5f5
+}
+.number{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.selector{
+    font-size:20px;
+}
+.white{
+    background-color:#f8f5f5;
+}
+
+h1 {
+    text-align: center;
+    
+}
